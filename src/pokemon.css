@@ -1,0 +1,32 @@
+.search-form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.search-bar{
+    min-height: 7vh;
+    border-radius: 4px;
+    width: 400px;
+    margin-top: 3rem;
+}
+
+.search-bar:focus{
+    outline-style: none;
+    border-color: red;
+}
+
+.app{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-detail{
+    left: 50%;
+    margin-left:45rem;
+    padding: 10px;
+    border-radius: 6px;
+    background-color: green;
+    color: white;
+}
