@@ -6,7 +6,9 @@ import TodoList from "./components/TodoList";
 import TodoListClass from "./components/TodoListClass";
 import PokemonList from "./components/PokemonList";
 import PokemonSearchFunction from './components/PokemonSearchWithFunction';
-import PokemonSearchClass from './components/PokemonSearchWithClass';
+
+
+import PokemonSearchClass from './components/pokemon/PokemonSearchClass';
 
 function App() {
   const [visible, setVisible] = useState(true);
@@ -19,8 +21,9 @@ function App() {
 
   return (
     <>
-    {/* < PokemonSearchFunction/> */}
     <PokemonSearchClass/>
+    {/* < PokemonSearchFunction/> */}
+    {/* <PokemonSearchClass/> */}
       {/* <PokemonList /> */}
       {/* <TodoInput /> */}
       {/* {visible && <TodoList />} */}
